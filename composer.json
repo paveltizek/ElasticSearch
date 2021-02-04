@@ -17,12 +17,12 @@
 		"issues": "https://github.com/Kdyby/ElasticSearch/issues"
 	},
 	"require": {
-		"php": ">=7.1",
+		"php": ">=7.1 || ~8.0",
 		"nette/di": "~3.0",
 		"tracy/tracy": "~2.6",
 		"nette/utils": "~3.0",
 
-		"ruflin/elastica": "~7.0"
+		"ruflin/elastica": "dev-master"
 	},
 	"require-dev": {
 		"nette/application": "~3.0",
